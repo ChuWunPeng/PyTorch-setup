@@ -28,11 +28,11 @@ TensorFlow.js => 把AI部署在網頁
 1. 下載[NVIDIA App](https://www.nvidia.com/zh-tw/software/nvidia-app/)
 
 2. 驅動程式目錄下的工作室驅動程式，按更新
-3. 下載 `CUDA Toolkit`，此為額外工具 ，這裡需注意 `NVIDIA CUDA` 版本為向下兼容，所以 Driver 12.8 可以安裝 12.6，而目前 PyTorch 也僅支援到12.6。
+3. 下載 `CUDA Toolkit`，此為額外工具 ，這裡需注意 `NVIDIA CUDA` 版本為向下兼容，所以 Driver 12.8 可以安裝 CUDA Toolkit 12.6，而目前 PyTorch 也僅支援到12.6。
   ```bash
   nvcc -V
   ```
-4. 下載 cuDNN 並把三個資料夾內的檔案一致
+4. 下載 cuDNN 並把三個資料夾內的檔案（lib、）
 
 ----
 ## 2. Conda
@@ -57,8 +57,9 @@ conda env export --name <環境名稱> > environment.yml #將環境資訊匯出�
 ----
 
 ### 3. install PyTorch
-至[PyTorch官網](https://pytorch.org/)，根據下載工具及自己的OS系統產生 Run this command，將其程式碼複製，並到 `conda` 產生的環境下安裝
-![image](https://github.com/user-attachments/assets/78e7b4c4-af59-4c70-b1c6-671e40119786)
+至[PyTorch官網](https://pytorch.org/)，根據下載工具及自己的OS系統產生 Run this command，將其程式碼複製，並到 `conda` 產生的環境下安裝，最後cu 126的126為版本可自行修改成自己的版本
+![image](https://github.com/user-attachments/assets/0d637fee-a2be-4613-9e85-7fd73fd5ee23)
+
 
 ## Git 版本控制
 ```bash
