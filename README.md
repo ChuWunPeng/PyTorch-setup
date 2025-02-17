@@ -24,8 +24,7 @@ TensorFlow.js => 把AI部署在網頁
 5. cuDNN 對應CUDA版本
 ----
 ## PyTorch setup
-----
-### GPU
+### 1. GPU
 1. 下載[NVIDIA App](https://www.nvidia.com/zh-tw/software/nvidia-app/)
 
 3. 驅動程式目錄下的工作室驅動程式，按更新
@@ -36,7 +35,7 @@ TensorFlow.js => 把AI部署在網頁
 6. 下載cuDNN 並把三個資料夾內的檔案一致![image](https://github.com/user-attachments/assets/78e7b4c4-af59-4c70-b1c6-671e40119786)
 
 ----
-## Conda
+## 2. Conda
 ```bash
 conda create --n <環境名稱> python=3.9 #環境名稱建置
 ```
@@ -56,7 +55,7 @@ conda list #列出所有安裝套件
 conda env export --name <環境名稱> > environment.yml #將環境資訊匯出至 YAML 檔
 ```
 ----
-## Git
+## 3. Git
 ###
 ```bash
 git config --global user.name "YourName" # 設定使用者名稱
@@ -100,12 +99,7 @@ git pull <遠端名稱> <分支名稱> # 取得遠端更新
 ```
 ----
 
-
-
-
-
-
-
-install Pytorch 
+### 4. install PyTorch
+至[PyTorch官網](https://pytorch.org/)，根據下載工具及自己的OS系統產生Run this command，將其程式碼複製，並到conda產生的環境下安裝
 
 # 
