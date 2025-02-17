@@ -32,7 +32,7 @@ TensorFlow.js => 把AI部署在網頁
   ```bash
   nvcc -V
   ```
-6. 下載 cuDNN 並把三個資料夾內的檔案一致![image](https://github.com/user-attachments/assets/78e7b4c4-af59-4c70-b1c6-671e40119786)
+6. 下載 cuDNN 並把三個資料夾內的檔案一致
 
 ----
 ## 2. Conda
@@ -58,6 +58,7 @@ conda env export --name <環境名稱> > environment.yml #將環境資訊匯出�
 
 ### 3. install PyTorch
 至[PyTorch官網](https://pytorch.org/)，根據下載工具及自己的OS系統產生 Run this command，將其程式碼複製，並到 `conda` 產生的環境下安裝
+![image](https://github.com/user-attachments/assets/78e7b4c4-af59-4c70-b1c6-671e40119786)
 
 ## Git 版本控制
 ```bash
